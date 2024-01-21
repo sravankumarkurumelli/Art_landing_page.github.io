@@ -98,13 +98,13 @@ main .img {
 }
 
 .section-three .primary-headings {
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
   align-items: center;
 }
 
@@ -205,7 +205,7 @@ footer .about-company .container {
     margin-left: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
 
   .main-headings {
     width: 80%;
