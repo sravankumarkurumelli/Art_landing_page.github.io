@@ -48,7 +48,7 @@ nav .burger {
 }
 
 nav .burger span {
-  height: 4px;
+  height: 1px;
   border: 2px solid black;
   margin: 4px;
   background: #000;
@@ -206,6 +206,30 @@ footer .about-company .container {
   }
 }
 @media screen and (max-width: 320px) {
+
+  .main-headings {
+    width: 80%;
+    font-size: 2rem;
+}
+.primary-headings {
+  width: 50%;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+main {
+  width: 100%;
+  margin: 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin: 40px; */
+}
+.section-three .primary-headings {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
   .section-three img {
     width: 215px;
     height: 215px;
