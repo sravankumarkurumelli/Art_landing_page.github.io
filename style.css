@@ -43,7 +43,7 @@ li a {
 }
 
 nav .burger {
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
   cursor: pointer;
 }
 
@@ -191,19 +191,19 @@ footer .about-company .container {
 }
 
 @media screen and (max-width: 600px) {
-  header{
+  header {
     margin: 2rem;
   }
   .section-three {
-    margin-left:2rem;
-}
+    margin-left: 2rem;
+  }
 
   .section-three img {
     width: 300px;
     height: 300px;
     margin: 50px 0;
     margin-left: 0;
-}
+  }
 }
 @media screen and (max-width: 320px) {
   .section-three img {
@@ -211,10 +211,10 @@ footer .about-company .container {
     height: 215px;
     margin: 50px 0;
     margin-left: 0;
-}
-.section-three .item h1 {
-  font-size: 1.8rem;
-  color: rgb(53, 53, 53);
-  margin-left: 0.5rem;
-}
+  }
+  .section-three .item h1 {
+    font-size: 1.8rem;
+    color: rgb(53, 53, 53);
+    margin-left: 0.5rem;
+  }
 }
